@@ -29,5 +29,5 @@ label start:
     scene bg_school_hallway
     show mc at left with moveinleft
     show Brayden at right with moveinright
-    Brayden "HELLO IVE COME TO MAKE AN ANNOUNCEMENT"
+    Brayden "Hello, mc"
 return
