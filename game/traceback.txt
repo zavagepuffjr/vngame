@@ -1,26 +1,32 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 7, in script
-    image mc = mc.png
-  File "game/script.rpy", line 7, in <module>
-    image mc = mc.png
-AttributeError: 'ADVCharacter' object has no attribute 'png'
+  File "renpy/common/00start.rpy", line 213, in script
+    python hide:
+  File "renpy/common/00start.rpy", line 213, in <module>
+    python hide:
+  File "renpy/common/00start.rpy", line 214, in _execute_python_hide
+    renpy.warp.warp()
+Exception: Could not find a statement to warp to. (script.rpy:1)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 7, in script
-    image mc = mc.png
-  File "/Users/zjackson1233/Documents/renpy-8.3.4-sdk/renpy/ast.py", line 926, in execute
-    img = renpy.python.py_eval_bytecode(self.code.bytecode)
-  File "/Users/zjackson1233/Documents/renpy-8.3.4-sdk/renpy/python.py", line 1202, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 7, in <module>
-    image mc = mc.png
-AttributeError: 'ADVCharacter' object has no attribute 'png'
+  File "renpy/common/00start.rpy", line 213, in script
+    python hide:
+  File "/Users/zjackson1233/Documents/renpy-8.3.4-sdk/renpy/ast.py", line 827, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/Users/zjackson1233/Documents/renpy-8.3.4-sdk/renpy/python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 213, in <module>
+    python hide:
+  File "renpy/common/00start.rpy", line 214, in _execute_python_hide
+    renpy.warp.warp()
+  File "/Users/zjackson1233/Documents/renpy-8.3.4-sdk/renpy/warp.py", line 147, in warp
+    raise Exception("Could not find a statement to warp to. ({})".format(spec))
+Exception: Could not find a statement to warp to. (script.rpy:1)
 
 macOS-12.7.5-arm64-arm-64bit arm64
 Ren'Py 8.3.4.24120703
 Game 1.0
-Tue Jan  7 09:24:03 2025
+Mon Jan 13 09:27:07 2025
