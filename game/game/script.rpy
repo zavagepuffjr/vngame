@@ -30,4 +30,9 @@ label start:
     show mc at left with moveinleft
     show Brayden at right with moveinright
     Brayden "Hello, mc"
+    mc "Hello, Brayden"
+    mc "What do you want"
+    Brayden "well i wanted to ask if you have found a therapist yet"
+    mc "For what?"
+    Brayden "for your homosexuality"
 return
