@@ -5,8 +5,8 @@
 
 define mc= Character("MC")
 image mc = Placeholder("boy")
-define Brayden = Character("Brayden")
-image Brayden = Placeholder("boy")
+define James = Character("James")
+image James = Placeholder("boy")
 # The game starts here.
 
 label start:
@@ -28,11 +28,11 @@ label start:
 
     scene bg_school_hallway
     show mc at left with moveinleft
-    show Brayden at right with moveinright
-    Brayden "Hello, mc"
-    mc "Hello, Brayden"
+    show James at right with moveinright
+    James "Hello, mc"
+    mc "Hello, James"
     mc "What do you want"
-    Brayden "well i wanted to ask if you have found a therapist yet"
+    James "well i wanted to ask if you have found a therapist yet"
     mc "For what?"
-    Brayden "for your homosexuality"
+    James "for your homosexuality"
 return
