@@ -20,10 +20,11 @@ label start:
     show mc at left with moveinleft
     "It was a day like any other"
     "Go to school, go to class, and survive"
-    mc "Ah finally. School."
+    mc "Ah finally."
+    mc "School."
     mc "{i}I really dont like this school{/i}"
     mc"{i}especially with the blatent homophobia I experience daily{/i}"
-    mc"{i}yet by law, im forced to go here until another school accepts my application{/i}"
+    mc"{i}i hate that im forced to go here until another school accepts my application{/i}"
     hide mc
 
     scene bg_school_hallway
@@ -35,4 +36,9 @@ label start:
     James "well i wanted to ask if you have found a therapist yet"
     mc "For what?"
     James "for your homosexuality."
+    mc ":("
+    James "Isnt homosexuality a mental disorder?"
+    mc "It hasnt been since 1973 though :("
+    James "Well anyway"
+    James "Fuck you, you boykisser"
 return
