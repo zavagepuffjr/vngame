@@ -34,5 +34,5 @@ label start:
     mc "What do you want"
     James "well i wanted to ask if you have found a therapist yet"
     mc "For what?"
-    James "for your homosexuality"
+    James "for your homosexuality."
 return
