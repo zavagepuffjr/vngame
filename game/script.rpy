@@ -41,7 +41,7 @@ label start:
     James "Isnt homosexuality a mental disorder?"
     mc "It hasnt been since 1973 though :("
     James "Well anyway"
-    James "Fuck you, you boykisser"
+    James "Screw you, you boykisser"
     menu
         "punch him???"
 
