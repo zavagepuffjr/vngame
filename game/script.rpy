@@ -7,6 +7,7 @@ define mc= Character("MC")
 image mc = Placeholder("boy")
 define James = Character("James")
 image James = Placeholder("boy")
+define punch=False
 # The game starts here.
 
 label start:
@@ -41,4 +42,16 @@ label start:
     mc "It hasnt been since 1973 though :("
     James "Well anyway"
     James "Fuck you, you boykisser"
+    menu
+        "punch him???"
+
+        "Punch him":
+            $ punch=True
+            "you punch him in the face"
+        
+        "dont punch him":
+            "you dont punch him"
+    label after_menu:
+
+        "ugh"
 return
